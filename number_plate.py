@@ -97,7 +97,7 @@ while True:
     cv2.imshow("Result", img)
 
     # Exit the loop when 'q' is pressed
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) & 0xFF == ord('c'):
         break
 
 # Release the video capture and close all OpenCV windows
